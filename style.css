@@ -1,0 +1,63 @@
+body, html {
+    background-color: cadetblue;
+}
+
+* {
+    margin: 0px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: aqua;
+    padding: 10px 10px 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 25px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.items  {
+    display: inline-flex;
+    font-size: 20px;
+    font-family: sans-serif;
+    gap: 15px;
+}
+
+.sitegrid {
+    background-color: teal;
+    width: auto;
+    display: flex;
+    margin-top: 85px;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+    user-select: none;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+    cursor: pointer;
+}
+
+.sitetitle p {
+    width: fit-content;
+    font-size: 30px;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.sitebox {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
